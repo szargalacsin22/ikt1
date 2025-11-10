@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11a1 HTML Projekt 20226</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Kecskés Gellért 2026-->
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="ke╠üp2.png" alt="Premo logo" title="Premo logo" width="190"></a>
+        </div>
+        <div id="banner-content">
+            <a href="index.html" title="11a1 HTML projekt 2025">
+                <h1>11a1 HTML projekt 2025</h1>
+            </a>
+        </div>
+        <h2>&#171;header&#187;</h2>
+    </header>
+    <div class="container">
+        <nav>
+            <h2>&#171;nav&#187;</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="#nogo">HTML/CSS Demo</a>
+                        <ul>
+                            <li><a href="animation.html">CSS animation</a></li> <!--listán belüli lista(almenu)-->
+                            <li><a href="form.html">HTML Űrlap</a></li>
+                            <li><a href="table.html">HTML Táblázat</a></li>
+                            <li><a href="gallery.html">Képgaléria</a></li>
+                            <li><a href="media.html">Média</a></li>
+                        </ul>
+                    </li>
+ 
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <h2>&#171;section&#187;</h2>
+            <article>
+                <h2>&#171;HTML Űrlap&#187;</h2>
+                <form action="">
+                    <p><span id="kötelző">A piros csillagal jelölt mezőket ki kell tölteni</span></p>
+                    <fieldset>
+                        <legend>megrendelő adatai</legend>                      <!-- for ba az id neve kell hogy ha rakatitunk odxa dobon a text-be!!!!-->
+                        <p>
+                            <label for="nev">Név: <input type="text" name="nev" id="nev" placeholder="név megadása..." size="17" required></label><span>*</span>
+                            <small>Vezetéknév/Keresztnév</small>
+                        </p>
+                        <p>
+                            <label for="telefon">Telefon: <input type="tel" name="Telefon" id="Telefon" placeholder="telefon szám megadásas..."size="17" required></label><span>*</span>
+                        </p>
+                        <p>
+                            <label for="cim">Szállítási cím: <input type="text" name="cim" id="cim" placeholder="Ide írd a szállítási címet..." size="17" required></label><span>*</span>
+                        </p>
+                        <p>
+                            <label for="email">Email Cím <input type="email" name="email" id="email" placeholder="add meg az email cimed..."size="17"></label><span>*</span>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>A pizza mérete</legend>
+                        <p><label for=""><input type="radio" name="meret" value="kicsi"checked>kicsi</label></p>
+                        <p><label for=""><input type="radio" name="meret" value="nagy">nagy</label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Feltétek</legend>
+                        <p><label for=""><input type="checkbox" name="feltet1" value="sonka" checked>sonka</label></p>
+                        <p><label for=""><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
+                        <p><label for=""><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
+                    </fieldset>
+                    <p><label for="">Mennyiség: <input type="number" name="Mennyiség"></label></p>
+                    <p><label for="">Kért kisszállítási idő: <input type="date" name="kiszallítas"></label></p>
+                    <p><label for="">egyebkivasagok</label></p>
+                    <textarea name="egyeb" id="egyeb"></textarea>
+                    <button type="reset">alaphelyzet</button>
+                    <button type="submit">elküldés</button>
+                </form>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <h2>&#171;footer&#187; <br>
+        &#169;2025/26 Kovacs akos All rights reserved</h2>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11a1 HTML Projekt 20226</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        table,
+        th,
+        td /* felsorlonal hogy egyszere többre legyen értelme utlosóhoz nme kell vessző!!!*/
+        {
+            border: 1px solid black;
+            padding: 5px 10px;    
+            border-collapse: collapse; /* kikapcsolni a extra sort tábálázatba*/
+        }
+        th {
+            background-color: cornflowerblue;
+            color:  white;
+            text-align: center;
+        }
+        table tr:nth-child(2)
+        {
+            background-color: lightcyan;
+        }  /* 2 hányadik elemet(sort) szólítson meg?*/
+    </style>
+</head>
+
+<body>
+    <!--Kecskés Gellért 2026-->
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="ke╠üp2.png" alt="Premo logo" title="Premo logo" width="190"></a>
+        </div>
+        <div id="banner-content">
+            <a href="index.html" title="11a1 HTML projekt 2025">
+                <h1>11a1 HTML projekt 2025</h1>
+            </a>
+        </div>
+        <h2>&#171;header&#187;</h2>
+    </header>
+    <div class="container">
+        <nav>
+            <h2>&#171;nav&#187;</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="#nogo">HTML/CSS Demo</a>
+                        <ul>
+                            <li><a href="animation.html">CSS animation</a></li> <!--listán belüli lista(almenu)-->
+                            <li><a href="form.html">HTML Űrlap</a></li>
+                            <li><a href="table.html">HTML Táblázat</a></li>
+                            <li><a href="gallery.html">Képgaléria</a></li>
+                            <li><a href="media.html">Média</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <h2>&#171;section&#187;</h2>
+            <article>
+                <h2>&#171;html táblázat&#187;</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>név</th>
+                                <th>foglalkozás</th>
+                                <th>lakcím</th>
+                                <th>telefonszám</th>
+                                <th>email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>gpisz jakab</td>
+                                <td>programozó</td>
+                                <td>pá utca 1</td>
+                                <td>111-222</td>
+                                <td>giszkjakab@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>joe doe</td>
+                                <td>webfejlesztő</td>
+                                <td>idksdf 12</td>
+                                <td>122-222</td>
+                                <td>joedoe@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Bekő Tóni</td>
+                                <td>autoszereleő</td>
+                                <td>fecske utca 22 </td>
+                                <td>333-221</td>
+                                <td>bekötőniadfcde@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>bél flóra</td>
+                                <td>iszap főző</td>
+                                <td>budapest,nemtom 12</td>
+                                <td>555-120</td>
+                                <td>acsélckae@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>laposeleér</td>
+                                <td>gym rat</td>
+                                <td>gyenes faludi utca 12</td>
+                                <td>123-432</td>
+                                <td>lapos.elemer@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <h2>&#171;footer&#187; <br>
+        &#169;2025/26 Kovacs akos All rights reserved</h2>
+    </footer>
+</body>
+
+</html>

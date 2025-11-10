@@ -1,0 +1,116 @@
+/*Kecskés Gellért 2026*/
+header, nav, section, article , footer
+{
+    border: 1px solid #ccc; /* mezei pocook szürke*/
+}
+body {
+    background-image: url(ke╠üp1.png); /* ccs háttér megadása mindig  url!! */
+}
+h2 {
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;      /* legekerytés! */
+}
+.container{
+    width: 1100px;
+    height: auto;
+    margin-left:auto ;
+    margin-right: auto;
+}
+nav {
+    width: 10%;
+    min-width: 200px;
+    height: 1100px;
+    float: left;
+    margin: 0 30px 0 30px;
+    background-color: rgba(255, 255, 255 , 0.7);
+    border-radius: 10px;
+}
+section {
+    width: 89%;
+    height: 1100px;
+    max-width: 800px;
+    float: left;
+    background-color: rgba(255, 255, 255 , 0.7);
+    border-radius: 10px;
+}
+article {
+    width: 96%;
+    max-width: 700px;
+    height: 900px;
+    margin-top: 20px;
+    margin-left:auto ;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;    /* sorkizárt */
+    line-height: 1.5em;
+    padding: 20px;      /* ne csúszon ráa külsö keretere */
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;     /*görgető sáv */
+}
+article img {
+    float: left;   /* kép szöveg körbefuttatéssa */
+    margin-right: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 10px 0 20px 0;
+    background-color: rgba(255, 255, 255 , 0.85);
+}
+#logo {
+    float: left;
+    width: 210px;
+    height: 170px;
+    margin: 5px 0 5px 10px;
+}
+#banner-content {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;  /* kerekítés  */
+}
+#banner-content a {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.3em;
+}
+/* egér követés */
+#banner-content a:hover{
+    text-decoration: underline;
+
+}
+#menu li {
+    list-style-type: none; /* stilus kikpacsolás listában*/
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;  /*sima basic keret*/
+    padding: 3px;
+    display: block; /*felvegye a menü teljes méretét*/
+    background-color: #ccc;
+    text-align: center;
+}
+#menu ul li a:hover {   /*a hover azt jelenti hogy azt csinalja ha fölé ért az egér!!*/
+    background-color: orange;
+    color: white;
+}
+#menu ul ul a {       /* hamburger mneu */
+    position: relative;
+    bottom: 20px;
+    left: 100%;
+    display: none;  /* ne lehesen lattni*/
+}
+#menu ul li:hover > ul a {
+    display: block;
+}
